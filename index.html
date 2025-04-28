@@ -4,122 +4,236 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portifólio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Ednei Louback | Portfolio</title>
+  <meta name="description" content="Portfólio do desenvolvedor front-end Ednei Louback para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/main.css">
   </head>
 
   <body>
-    <nav>
-      <a
-        rel="noopener noreferrer"
-        href="https://dev-app-i.vercel.app/"
-        target="_blank"
-        >Aplicativo</a
-      >
-      <a rel="noopener noreferrer" href="#home">Apresentação</a>
-      <a rel="noopener noreferrer" href="#sobre-mim">Sobre mim</a>
-      <a rel="noopener noreferrer" href="#contato">Contato</a>
-    </nav>
-    <header style="background-color: aqua">
-      <div class="header__toggle">
-        <i id="toggleTheme" class="bi bi-sun"></i>
-      </div>
+
+    <!-- navigation -->
+    <header class="header">
+    
+      <nav  class="header__nav">
+        <a
+          
+          href="https://dev-app-i.vercel.app/"
+          target="_blank"
+          >Aplicativo</a
+        >
+        <a  href="#home">Apresentação</a>
+        <a  href="#about">Sobre mim</a>
+        <a  href="#projects">Projetos</a>
+        <a  href="#contact">contact</a>
+      </nav>
     </header>
+
+    <nav class="nav--mobile">
+      <ul class="menu menu--mobile">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <i class="menu__icon bi bi-house-door"></i>
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projects">
+            <i class="menu__icon bi bi-window-stack"></i>
+            <span class="menu__text">Projetos</span>
+          </a>
+            
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#about">
+            <i class="menu__icon bi bi-person"></i>
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contact">
+            <i class="menu__icon bi bi-envelope"></i>
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header__toggle">
+      <!-- position absolute -->
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+
+    <!-- content -->
     <main id="home">
-      <div class="content-header">
-        <div class="text-header">
-          <div class="col-1">
-            <h2>Olá, me chamo <strong>Ednei Louback</strong></h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              omnis aliquid aut ducimus laudantium expedita optio. Molestiae
-              culpa similique illum earum mollitia. Itaque vero eum officia
-              deserunt at commodi minima. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Debitis provident nesciunt quos, tempora
-              aspernatur sed enim modi fuga cupiditate aut aliquid eligendi
-              saepe laborum. Architecto debitis vel cumque dolor odit. Ad fugiat
-              quidem sunt officiis numquam sed commodi, quas tempora laboriosam
-              neque, labore sint mollitia voluptatem expedita. Natus illum
-              architecto repudiandae, vitae accusamus eaque hic voluptatum,
-              quibusdam, deserunt nesciunt nisi. Quod ipsam vel provident odio
-              quas, iusto autem possimus hic nemo tempore laboriosam. Et ab
-              dolorem dolor! Culpa aliquam excepturi dolore molestias tenetur!
-              Accusamus tempora quis libero quod eveniet similique?
-            </p>
-          </div>
-          <div class="col-2">
-            <h2>Grid de duas colunas</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              omnis aliquid aut ducimus laudantium expedita optio. Molestiae
-              culpa similique illum earum mollitia. Itaque vero eum officia
-              deserunt at commodi minima. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Debitis provident nesciunt quos, tempora
-              aspernatur sed enim modi fuga cupiditate aut aliquid eligendi
-              saepe laborum. Architecto debitis vel cumque dolor odit. Ad fugiat
-              quidem sunt officiis numquam sed commodi, quas tempora laboriosam
-              neque, labore sint mollitia voluptatem expedita. Natus illum
-              architecto repudiandae, vitae accusamus eaque hic voluptatum,
-              quibusdam, deserunt nesciunt nisi. Quod ipsam vel provident odio
-              quas, iusto autem possimus hic nemo tempore laboriosam. Et ab
-              dolorem dolor! Culpa aliquam excepturi dolore molestias tenetur!
-              Accusamus tempora quis libero quod eveniet similique?
-            </p>
-          </div>
-        </div>
+      <div class="main__content1">
+        <h1><b>Artista plástico &</b> Desenvolvedor Full Stack</h1>
+        <p>Ednei Rodrigues Louback, Mogi das Cruzes, São Paulo-SP, Desenvolvedor Front-end.</p> 
+        <ul class="menu menu--social">
+          <li>
+            <a rel="noreferrer noopener" target="_blank" class="menu__link" href="https://github.com/ednei284" target="_blank">
+              <i class="menu__icon bi bi-github"></i>
+              Github
+            </a>
+          </li>
+          
+        </ul>
+        <h2>Conhecimentos básicos nestas tecnologias.</h2>
+
+        
+    <ul class="technologies__list">
+      <li class="about__skill">
+          <img class="about__logo" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Logo HTML5">
+        </li>
+        <li class="about__skill">
+          <img class="about__logo" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Logo CSS3">
+        </li>
+        <li class="about__skill">
+          <img class="about__logo" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="Logo PHP">
+        </li>
+        <li class="about__skill">
+          <img class="about__logo" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="Logo MySQL">
+        </li>
+        <li class="about__skill">
+          <img class="about__logo" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="Logo React">
+        </li>
+        <li class="about__skill">
+          <img class="about__logo" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Logo Node.js">
+        </li>
+        <li class="about__skill">
+          <img class="about__logo" src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge" alt="Logo Express.js">
+        </li>
+        <li class="about__skill">
+          <img class="about__logo" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Logo Java">
+        </li>
+        <li class="about__skill">
+          <img class="about__logo" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="Logo JavaScript">
+        </li>
+        <li class="about__skill">
+          <img class="about__logo" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="Logo TypeScript">
+        </li> 
+    </ul>
+        <a rel="noreferrer noopener" target="_blank" href="#projetos">
+          <button class="btn btn--primary">
+            <span>Ver Projetos</span>
+            <i class="bi bi-arrow-down-right"></i>
+          </button>  
+        </a>
       </div>
     </main>
-    <section id="sobre-mim">
 
-    </section>
-    <article>
-    <a rel="noopener noreferrer">
-      <div class="photo-header">
-        <img
-          class="my-photo"
-          src="src/img/profile-photo.jpg"
-          alt="foto de pessoa"
-        />
-      </div>
-      <div class="content-article">
-        <div class="text-article">
-          <h2>
-            Todos esses nomes ao lado são links clicáveis para que você
-            possa ver os sites funcionando.
-          </h2>
-          <h3>Primeiro contato com programação web foi por onde?</h3>
-          <p>
-            Assistindo o canal
-            <a rel="noopener noreferrer"
-              href="https://www.youtube.com/watch?v=Ldl_CvMGmEA"
-              target="_blank"
-              ><strong> curso em video </strong></a
-            >
-            no youtube do queridíssimo <strong>Gustavo Guanabara</strong> e
-            graças a isso tive meu primeiro contato com programação web. Clique
-            no link do curso em video acima e sabia mais. Ele inclui um apenas
-            HTML e CSS e conta a história do
-            <a rel="noopener noreferrer"
-              href=" https://ednei284.github.io/curso-em-video/"
-              target="_blank"
-              ><strong>Android</strong> </a
-            >clique aqui para ver.
-          </p>
+    <article id="projects" class="projects">
+      <h2>Projetos</h2>
+      <div class="projects__container">
+        <div class="projects__card">
+          <img class="card__cover" src="assets/images/technologies/projects-images/nlw-doctor-care.png" alt="Capa site nlw">
+          <div class="card__body">
+            <h3 class="card__title">Site simples demonstrativo</h3>
+            <p class="card__description">Web site para agendamentos de consultas</p>
+            <ul class="card__list">
+              <li class="card__item">Imagens;</li>
+              <li class="card__item">link para agendamentos;</li>
+              <li class="card__item">feedback demonstrativo de clientes.</li>
+            </ul>
+            <ul class="technologies__list">
+              <li class="technologies__item">
+                <img class="technologies__logo" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Logo HTML5">
+              </li>
+              <li class="technologies__item">
+                <img class="technologies__logo" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Logo CSS3">
+              </li>
+              <li class="technologies__item">
+                <img class="technologies__logo" src="https://img.shields.io/badge/JS-ffca00?style=for-the-badge&logo=css3&logoColor=white" alt="Logo CSS3">
+              </li>
+              
+            </ul>
+            <div class="card__buttons">
+              <a rel="noreferrer noopener" target="_blank" class="btn btn--primary" refe href="https://ednei284.github.io/nlw-8-origin-return-main/">
+                <span>Prévia</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </a>  
+              <a rel="noreferrer noopener" target="_blank" href="https://github.com/Ednei284/nlw-8-origin-return-main" class="btn">
+                <span>Repositório</span>
+              </a>  
+            </div>
+          </div>
         </div>
+        <div class="projects__card card--reverse">
+          <img class="card__cover" src="assets/images/technologies/projects-images/android.png" alt="Capa Archstil">
+          <div class="card__body">
+            <h3 class="card__title">Android</h3>
+            <p class="card__description">A história por trás do mascote android.</p>
+            <ul class="card__list">
+              <li class="card__item">progresso de desenvolvimento do mascote;</li>
+              <li class="card__item">Biografia do autor.</li>
+            </ul>
+            <ul class="technologies__list">
+              <li class="technologies__item">
+                <img class="technologies__logo" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Logo HTML5">
+              </li>
+              <li class="technologies__item">
+                <img class="technologies__logo" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Logo CSS3">
+              </li>
+              <li class="technologies__item">
+                <img class="technologies__logo" src="https://img.shields.io/badge/JS-ffca00?style=for-the-badge&logo=css3&logoColor=white" alt="Logo CSS3">
+              </li>
+              
+            </ul>
+            <div class="card__buttons">
+              <a rel="noreferrer noopener" target="_blank" class="btn btn--primary" rel="noreferrer noopener" href="https://ednei284.github.io/curso-em-video-main/">
+                <span>Prévia</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </a>  
+              <a rel="noreferrer noopener" target="_blank" href="https://github.com/Ednei284/curso-em-video-main/" class="btn">
+                <span>Repositório</span>
+              </a>  
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="projects__card">
+          <img class="card__cover" src="assets/images/technologies/projects-images/beauty-salon.png" alt="Capa Games Store">
+          <div class="card__body">
+            <h3 class="card__title">Loja de Jogos</h3>
+            <p class="card__description">Loja online de Games.</p>
+            <ul class="card__list">
+              <li class="card__item">Listagem de favoritos;</li>
+              <li class="card__item">Carrinho de compras;</li>
+              <li class="card__item">Filtragem por preço e categoria.</li>
+            </ul>
+            <ul class="technologies__list">
+              <li class="technologies__item">
+                <img class="technologies__logo" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Logo HTML5">
+              </li>
+              <li class="technologies__item">
+                <img class="technologies__logo" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Logo CSS3">
+              </li>
+              <li class="technologies__item">
+                <img class="technologies__logo" src="https://img.shields.io/badge/JS-ffca00?style=for-the-badge&logo=css3&logoColor=white" alt="Logo CSS3">
+              </li>
+              
+            </ul>
+            <div class="card__buttons">
+              <a rel="noreferrer noopener" target="_blank" class="btn btn--primary" href=" https://ednei284.github.io/Html-WebSite-main/">
+                <span>Prévia</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </a>  
+              <a rel="noreferrer noopener" target="_blank" href="https://github.com/Ednei284/Html-WebSite-main/" class="btn">
+                <span>Repositório</span>
+              </a>  
+            </div>
+          </div>
+        </div>
+        <a rel="noreferrer noopener" target="_blank" href="https://github.com/ednei284?tab=repositories"> <!-- repositories -->
+          <button class="btn btn--primary">
+            <span>Ver Todos os Projetos</span>
+            <i class="bi bi-arrow-up-right"></i>
+          </button>  
+        </a>
+      </div>
+   
         <div class="links-article">
           <h2>Tecnologias usadas</h2>
           <img
@@ -139,21 +253,107 @@
         </div>
       </div>
     </article>
-    <section id="contato"></section>
+
+    <section id="about" class="about">
+        <div class="about__content1">
+          <img class="about__photo" src="assets/images/profile-photo.jpg" alt="">
+          <div class="about__description">
+            <h2>Sobre mim</h2>
+            <p>Ednei Rodrigues Louback. Artista plástico e amante de tecnologia, meu primeiro "Hello World" foi em 2020 quando tive contact com HTML, CSS e um pouco de JavaScript com o CURSO EM VIDEO. Atualmente curso Python iniciante/avançado e análise de dados.
+            </p>  
+            <div class="about__icons">
+              <i class="bi bi-translate"></i>
+              <span>Inglês: Intermediário</span>
+            </div>
+            <div class="description__buttons">
+              <!-- <a rel="noreferrer noopener" target="_blank" href="https://www.linkedin.com/in/ednei284/" target="_blank">
+                <button class="btn btn--primary">
+                  <span>Conecte-se Comigo</span>
+                  <i class="bi bi-arrow-up-right"></i>
+                </button> 
+              </a>
+              <a rel="noreferrer noopener" target="_blank" href="">
+                <button class="btn">
+                  <span>Currículo</span>
+                </button>
+              </a> -->
+            </div>
+          </div>
+        </div>
+        <div class="about__content2">
+          <h2>Habilidades</h2>
+          <ul class="about__skills" style="display: flex; flex-wrap: wrap; gap: .5rem; flex-direction: row; justify-content: center;">
+            <li class="about__skill">
+              <img class="about__logo" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Logo HTML5">
+            </li>
+            <li class="about__skill">
+              <img class="about__logo" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Logo CSS3">
+            </li>
+            <li class="about__skill">
+              <img class="about__logo" src="https://img.shields.io/badge/JS-ffca00?style=for-the-badge&logo=css3&logoColor=white" alt="Logo CSS3">
+            </li>
+            <li class="about__skill">
+              <img class="about__logo" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="Logo PHP">
+            </li>
+            <li class="about__skill">
+              <img class="about__logo" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="Logo MySQL">
+            </li>
+            <li class="about__skill">
+              <img class="about__logo" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="Logo React">
+            </li>
+            <li class="about__skill">
+              <img class="about__logo" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Logo Node.js">
+            </li>
+            <li class="about__skill">
+              <img class="about__logo" src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge" alt="Logo Express.js">
+            </li>
+            <li class="about__skill">
+              <img class="about__logo" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Logo Java">
+            </li>
+            <li class="about__skill">
+              <img class="about__logo" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="Logo JavaScript">
+            </li>
+            <li class="about__skill">
+              <img class="about__logo" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="Logo TypeScript">
+            </li> 
+          </ul>
+    
+    </section>
+
+    <section id="contact" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conheça meus estudos no github.
+    </p>
+    <a rel="noreferrer noopener" target="_blank" href="mailto:metal2024heavy@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">metal2024heavy@gmail.com</span>
+      </button>  
+    </a>
+    <ul class="menu menu--social">
+      <li>
+        <a rel="noreferrer noopener" target="_blank" class="menu__link" href="https://github.com/ednei284" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+     
+    </ul>
+   
+  </section>
+
     <footer>
       <div class="content-footer">
         <div class="text-footer">
           <p>Obrigado, volte sempre que quiser!</p>
           <p></p>
-          <p>Acesse meu LinkedIn.</p>
+          <p>Acesse meu Github.</p>
         </div>
-        <div class="button-footer">
-          <a rel="noopener noreferrer" href="#" target="_blank">
             <p>&copy; EdneiLouback</p>
-          </a>
-        </div>
       </div>
     </footer>
+
+    <!-- politics -->
     <div id="popup" class="popup">
       <p>
         Este site não coleta informações pessoais dos usuários e não utiliza
@@ -164,6 +364,7 @@
       </p>
       <button id="okButton">Ok</button>
     </div>
+
     <script type="module" src="assets/js/script.js"></script>
 
   </body>
