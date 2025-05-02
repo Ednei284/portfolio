@@ -1,6 +1,6 @@
 # Portfólio - Ednei Rodrigues Louback
 
-Este é o [portfólio](https://ednei284.github.io/portfolio/)pessoal de Ednei Louback, desenvolvido para apresentar projetos, habilidades e informações de contato. O site foi criado utilizando tecnologias modernas e responsivas, com foco em front-end.
+Este é o [portfólio](https://ednei284.github.io/portfolio/) pessoal de Ednei Louback, desenvolvido para apresentar projetos, habilidades e informações de contato. O site foi criado utilizando tecnologias modernas e responsivas, com foco em front-end.
 
 ## Tecnologias Utilizadas
 
