@@ -1,8 +1,6 @@
-
-import data from "../data/dataLinks";
 class ListItems {
 
-  constructor() {
+  constructor(data) {
     this.dataObjects = data
     this.handleContent()
   }
@@ -17,4 +15,6 @@ class ListItems {
     insertIntoUnOrderedList.innerHTML = elementListItem.join('')
   }
 }
+console.log("listitem");
+
 export default ListItems

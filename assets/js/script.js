@@ -1,13 +1,16 @@
 import SmoothScroll from "./classes/SmoothScroll.js";
 import TermsPolitics from './classes/TermsPolitics.js'
-// import ListItems from "../js/classes/ListItems.js";  
+import ListItems from "../js/classes/ListItems.js";
+import data from "../../assets/js/data/dataLinks.js";
+
 
 const rootHtml = document.documentElement
 const toggleTheme = document.getElementById("toggleTheme");
 
 new SmoothScroll("a[href^='#']");
 new TermsPolitics()
-// new ListItems();
+new ListItems(data);
+
 
 
 function changeTheme() {
