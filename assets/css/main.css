@@ -544,6 +544,11 @@ footer p {
   .sidebar {
     display: none; /* Ou transforme em um menu hambúrguer */
   }
+
+
+    .card__body .technologies__list {
+    gap: 0.75rem;
+}
     .header {
         position: fixed;
         border-bottom: 1px solid var(--primary-border-color);
