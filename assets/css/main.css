@@ -537,7 +537,7 @@ footer p {
 }
 
 /* Responsividade */
-@media (min-width: 768px) {
+@media (min-width: 568px) {
     .card__body .technologies__list {
     gap: 0.75rem;
 }
