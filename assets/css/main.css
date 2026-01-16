@@ -538,14 +538,6 @@ footer p {
 
 /* Responsividade */
 @media (min-width: 768px) {
-    .container {
-    flex-direction: column;
-  }
-  .sidebar {
-    display: none; /* Ou transforme em um menu hambúrguer */
-  }
-
-
     .card__body .technologies__list {
     gap: 0.75rem;
 }
