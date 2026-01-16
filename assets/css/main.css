@@ -538,6 +538,12 @@ footer p {
 
 /* Responsividade */
 @media (min-width: 768px) {
+    .container {
+    flex-direction: column;
+  }
+  .sidebar {
+    display: none; /* Ou transforme em um menu hambúrguer */
+  }
     .header {
         position: fixed;
         border-bottom: 1px solid var(--primary-border-color);
